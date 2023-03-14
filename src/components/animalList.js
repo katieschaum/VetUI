@@ -59,7 +59,7 @@ export default class DropdownAnimalSearchQuery extends Component {
             animals.forEach(element => {
            console.log(value);
               if (element.name===value){
-                    alert("the element is:"+ element.animal_id);
+                    
                     localStorage.setItem("animalId", element.animal_id);
               }
             });
@@ -73,7 +73,7 @@ export default class DropdownAnimalSearchQuery extends Component {
             })
             
       //  console.log(this.state.selectOptions.find(o => o.value ==value)?.key);
-alert(encodedValue)
+
     window.location.href = `/drugs/${encodedValue}`;
     https://vaddb.liamgombart.com/dosages?animal_id=undefined
     
